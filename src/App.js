@@ -10,9 +10,18 @@ function App() {
         <div className="Search-bar">search bar</div>
         <div className="Mood-title"><h3>what's your mood?</h3></div>
         <div className="Album-sections">
-          <div className="Album">1</div>
-          <div className="Album">2</div>
-          <div className="Album">3</div>
+          <div className="Album">
+            <img className="Album-cover" src="/logo192.png"></img>
+            <p>listen to this album</p>
+          </div>
+          <div className="Album">
+            <img className="Album-cover" src="/logo192.png"></img>
+            <p>no listen to this album</p>
+          </div>
+          <div className="Album">
+            <img className="Album-cover" src="/logo192.png"></img>
+            <p>no listen to this album you must or else ill kill you</p>
+          </div>
         </div>
 
 
