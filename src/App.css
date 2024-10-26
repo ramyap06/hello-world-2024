@@ -2,6 +2,12 @@
   text-align: center;
 }
 
+.Search-bar {
+  background-color: white;
+  width: 80%;
+  margin-bottom: 3%;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -21,7 +27,6 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  width: 100%;
   margin-bottom: 5%;
 }
 
@@ -39,6 +44,7 @@
   font-size: calc(10px + 2vmin);
   color: #E0E0E0;
 }
+
 .Title {
   color: #02DE99;
 }
