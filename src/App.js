@@ -8,7 +8,7 @@ function App() {
         {/* start writing */}
         <div className="Title"><h1>title</h1></div>
         <div className="Search-bar">search bar</div>
-        <div className="Title"><h3>what's your mood?</h3></div>
+        <div className="Mood-title"><h3>what's your mood?</h3></div>
         <div className="Album-sections">
           <div className="Album"></div>
           <div className="Album"></div>
@@ -16,7 +16,7 @@ function App() {
         </div>
 
 
-        
+
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
