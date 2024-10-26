@@ -17,10 +17,11 @@ function App() {
     <div className="App">
       <header className="App-header">
         {/* start writing */}
-        <div className="Title"><h1>this is the mood app song generator that generates songs based off your mood i love you!!</h1></div>
+        <div className="Title"><h1>this is the mood app song generator</h1></div>
         <div className="Mood-title"><h3>What's your mood?</h3></div>
         <div className="Search-bar">
           <input
+            className="Search-input"
             type = "text"
             placeholder = "Enter your mood..."
             ref={inputRef}
