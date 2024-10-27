@@ -76,8 +76,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         {/* start writing */}
-        <div className="Title"><h1>this is the mood app song generator</h1></div>
-        <div className="Mood-title"><h3>What's your mood?</h3></div>
+        <div className="Title"><h1>how are you feeling today?</h1></div>
+        <div className="Mood-title"><h3>based off your mood, we'll generate some new music albums for you to listen to</h3></div>
         <div className="Search-bar">
           <input
             className="Search-input"
@@ -90,18 +90,18 @@ function App() {
 
         <div className="Album-sections">
           <div className="Album">
-            <img className="Album-cover1" src={`/${albums[0]?.image}`} alt={albums[0]?.albumName}/>
-            <p className="albumName1">{albums[0]?.albumName}</p>
+            <img className="Album-cover1" src={albums[0]?.image ? `/${albums[0].image}` : '/image3.gif'} alt="image1"/>
+            <h3 className="albumName1">{albums[0]?.albumName}</h3>
             <p className="artist1">{albums[0]?.artist}</p>
           </div>
           <div className="Album">
-            <img className="Album-cover2" src={`/${albums[1]?.image}`} alt={albums[1]?.albumName}/>
-            <p className="albumName2">{albums[1]?.albumName}</p>
+            <img className="Album-cover2" src={albums[1]?.image ? `/${albums[1].image}` : '/image3.gif'} alt="image1"/>
+            <h3 className="albumName2">{albums[1]?.albumName}</h3>
             <p className="artist2">{albums[1]?.artist}</p>
           </div>
           <div className="Album">
-            <img className="Album-cover3" src={`/${albums[2]?.image}`} alt={albums[2]?.albumName}/>
-            <p className="albumName3">{albums[2]?.albumName}</p>
+            <img className="Album-cover3" src={albums[2]?.image ? `/${albums[2].image}` : '/image3.gif'} alt="image1"/>
+            <h3 className="albumName3">{albums[2]?.albumName}</h3>
             <p className="artist3">{albums[2]?.artist}</p>
           </div>
         </div>

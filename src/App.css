@@ -2,8 +2,13 @@
   text-align: center;
 }
 
+p {
+  font-size: 20px;
+}
+
+
 .Search-bar {
-  background-color: white;
+  background-color: rgb(175, 169, 169);
   width: 80%;
   margin-bottom: 3%;
   display: flex;
@@ -15,6 +20,9 @@ h1 {
 }
 
 .Search-bar input {
+  background-color: rgb(175, 169, 169);
+  color: white;
+  font-weight: bold;
   width: 100%;
   border: none;
   outline: none;
@@ -35,18 +43,21 @@ h1 {
   width: 250px;
   height: 250px;
   object-fit: cover;
+  border: none;
 }
 
 .Album-cover2 {
   width: 250px;
   height: 250px;
   object-fit: cover;
+  border: none;
 }
 
 .Album-cover3 {
   width: 250px;
   height: 250px;
   object-fit: cover;
+  border: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -59,16 +70,15 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-bottom: 5%;
 }
 
 .Album {
-  background-color: #02DE99;
+  background-color: #047451;
   width: 30%;
-  min-height: 400px;
+  min-height: 350px;
   margin: 10px;
   padding: 10px;
-  border: 1px solid #ccc;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .App-header {
