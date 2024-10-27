@@ -31,8 +31,22 @@ h1 {
   pointer-events: none;
 }
 
-.Album-cover {
-  width: 100%;
+.Album-cover1 {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.Album-cover2 {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.Album-cover3 {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -51,6 +65,10 @@ h1 {
 .Album {
   background-color: #02DE99;
   width: 30%;
+  min-height: 400px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
 }
 
 .App-header {
